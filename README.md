@@ -1,25 +1,8 @@
 
-# Socket.IO Chat
+# Socket.IO聊天室
 
-A simple chat demo for socket.io
+使用步骤
 
-## How to use
+npm install
+node index
 
-```
-$ cd socket.io
-$ npm install
-$ cd examples/chat
-$ npm install
-$ npm start
-```
-
-And point your browser to `http://localhost:3000`. Optionally, specify
-a port by supplying the `PORT` env variable.
-
-## Features
-
-- Multiple users can join a chat room by each entering a unique username
-on website load.
-- Users can type chat messages to the chat room.
-- A notification is sent to all users when a user joins or leaves
-the chatroom.
